@@ -1,36 +1,33 @@
-# Entertainment
+# Entertainment,
 
-#### Description
-开发框架
+#### introduce
+The development tools
+Entertainment is a Swift based development tool for beginners to develop from 0-1 or some lazy toolbox
+The author will continue to update the project for your reference
 
-#### Software Architecture
-Software architecture description
-
-#### Installation
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### Instructions
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### Contribution
-
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
+#### Software architecture
+1, install cocoapods
+2. Read codeguide.md before using it.
 
 
-#### Gitee Feature
+#### Install the tutorial
 
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+1. XXXX
+2. XXXX
+3. XXXX
+
+#### Instructions for use
+
+1. XXXX
+2. XXXX
+3. XXXX
+
+#### Participate in contributing
+
+1. Fork the warehouse
+2. New Feat_xxx branch
+3. Submit the code
+4. Create a new Pull Request
+
+
+#### GitHub Feature
