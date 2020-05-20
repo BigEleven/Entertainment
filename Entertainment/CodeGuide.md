@@ -92,22 +92,21 @@ Preferred:
 ## 目录结构
 
 ```
-NihaoCafe-Swift
-             |-- Config/     (项目中的各种全局的配置文件, UI规范颜色, 系统参数等)
-             |-- SDK.swift            (SDK - appkey, appid)
-                     |-- Systems/            (系统的日志打印, 版本号, 文件夹)
-                     |-- Sprcification/      (UI 规范, 文件夹)
-             |-- Helpers/    (系统类的功能扩展)
-             |-- Features/   (项目的各个功能模块（页面主体）)
-             |       |
-             |       |-- 各功能模块目录/
-             |              |-- controller/      (主视图控制器, 文件夹)
-             |              |-- model/           (模型, 文件夹)
-             |              |-- subviews/        (自定义 View/Cell, 文件夹)
-             |       |-- Exhibitions(展示类页面)/
-             |-- Services/   (服务, 网络请求的加密解密, 内置加密解密算法)
-             |-- Resources/  (资源文件, 图片视频等)
-             |-- Components/ (通用组件)
+     |-- Config/     (项目中的各种全局的配置文件, UI规范颜色, 系统参数等)
+     |-- SDK.swift            (SDK - appkey, appid)
+             |-- Systems/            (系统的日志打印, 版本号, 文件夹)
+             |-- Sprcification/      (UI 规范, 文件夹)
+     |-- Helpers/    (系统类的功能扩展)
+     |-- Features/   (项目的各个功能模块（页面主体）)
+     |       |
+     |       |-- 各功能模块目录/
+     |              |-- controller/      (主视图控制器, 文件夹)
+     |              |-- model/           (模型, 文件夹)
+     |              |-- subviews/        (自定义 View/Cell, 文件夹)
+     |       |-- Exhibitions(展示类页面)/
+     |-- Services/   (服务, 网络请求的加密解密, 内置加密解密算法)
+     |-- Resources/  (资源文件, 图片视频等)
+     |-- Components/ (通用组件)
 ```              
         
 ## 代码组织结构性
