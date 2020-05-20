@@ -948,7 +948,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Entertainment/Easy English.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C9P852WZK8;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -960,7 +960,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xiaomiai.shcom;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Entertainment.Eleven;
 				PRODUCT_NAME = "Easy English";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Entertainment/Entertainment-Bridging-Header.h";
@@ -979,7 +979,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Entertainment/Easy English.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C9P852WZK8;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -991,7 +991,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xiaomiai.shcom;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Entertainment.Eleven;
 				PRODUCT_NAME = "Easy English";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Entertainment/Entertainment-Bridging-Header.h";
