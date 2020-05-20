@@ -183,7 +183,6 @@ button.attributedText(att)
 // NotificationManager 自动管理观察者的生命周期, 每次在使用通知的时候还要写remove方法很麻烦, 有时候会忘记, 这做一个自动管理
 // 并且把通知name做了统一管理, 不允name后面的参数为具体的字符串, 必须在NotificationName中配置"
 NotificationManager(self, selector: #selector(setup), name: .demoName)
-
 ```
 
 `3, 面向协议`
