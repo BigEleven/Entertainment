@@ -21,3 +21,15 @@ enum Device {
     /// 广告标识
     static let IDFA = ASIdentifierManager.shared().advertisingIdentifier.uuidString
 }
+
+/// 以6的比例设置
+enum RatioToIphone6 {
+    static let width = UIScreen.width / 375
+    static let height = UIScreen.height / 667
+}
+
+/// 以6的比例设置
+enum RatioToIphoneX {
+    static let width = UIScreen.width / 375
+    static let height = UIScreen.height / 812
+}

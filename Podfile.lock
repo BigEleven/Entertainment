@@ -17,9 +17,13 @@ PODS:
     - BlocksKit/DynamicDelegate
   - FreeStreamer (4.0.0):
     - Reachability (~> 3.0)
+  - IQKeyboardManagerSwift (6.5.5)
   - JCore (2.2.5)
   - JPush (3.3.2):
     - JCore (< 3.0.0, >= 2.0.0)
+  - Kingfisher (5.13.4):
+    - Kingfisher/Core (= 5.13.4)
+  - Kingfisher/Core (5.13.4)
   - PKHUD (5.3.0)
   - Reachability (3.2)
   - Reusable (4.1.1):
@@ -34,8 +38,10 @@ DEPENDENCIES:
   - Alamofire (~> 4.8.0)
   - BlocksKit (~> 2.2.5)
   - FreeStreamer (~> 4.0.0)
+  - IQKeyboardManagerSwift (~> 6.5.5)
   - JCore (~> 2.2.5)
   - JPush (~> 3.3.2)
+  - Kingfisher (~> 5.13.4)
   - PKHUD (~> 5.3.0)
   - Reusable
   - SnapKit
@@ -46,8 +52,10 @@ SPEC REPOS:
     - Alamofire
     - BlocksKit
     - FreeStreamer
+    - IQKeyboardManagerSwift
     - JCore
     - JPush
+    - Kingfisher
     - PKHUD
     - Reachability
     - Reusable
@@ -58,14 +66,16 @@ SPEC CHECKSUMS:
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
   FreeStreamer: 7e9c976045701ac2f7e9c14c17245203c37bf2ea
+  IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
   JCore: d75c0306dc99875d323d23e5a063b3a3ef22335a
   JPush: 9468c84a3809dc3ac2fc1c89c6d1d6c858a91bf5
+  Kingfisher: d2279a7abece3c7f25a80cd2b7f363ca5cf3f44c
   PKHUD: 98f3e4bc904b9c916f1c5bb6d765365b5357291b
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   Reusable: 53a9acf5c536f229b31b5865782414b508252ddb
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
 
-PODFILE CHECKSUM: 0dacf76e9d139782b8a4f5c2761bef282ef6954f
+PODFILE CHECKSUM: 11d554fa9f298d2614abb0a3f02679648bf389dd
 
 COCOAPODS: 1.9.1

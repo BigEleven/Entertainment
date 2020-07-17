@@ -10,3 +10,5 @@
 
 #import "FSAudioStream.h"
 
+#import <CoreLocation/CoreLocation.h>
+

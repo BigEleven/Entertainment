@@ -10,6 +10,7 @@ import UIKit
 import Reusable
 
 class CollectionViewCell: UICollectionViewCell, Reusable {
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
     }

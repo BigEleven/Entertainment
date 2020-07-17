@@ -26,6 +26,10 @@ target 'Entertainment' do
   pod 'BlocksKit', '~> 2.2.5'
   # mp3播放
   pod 'FreeStreamer', '~> 4.0.0'
+  # 自适应键盘
+  pod 'IQKeyboardManagerSwift', '~> 6.5.5'
+  # 图片解析
+  pod 'Kingfisher', '~> 5.13.4'
   
   pod 'JPush', '~> 3.3.2'
   pod 'JCore', '~> 2.2.5'

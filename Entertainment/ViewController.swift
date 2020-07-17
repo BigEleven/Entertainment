@@ -41,8 +41,6 @@ class ViewController: BaseViewController {
         setup()
         setupConstraints()
         
-        
-        
         let att =
             "这里是红色".attributed(color: .red, font: .title).newline
             +

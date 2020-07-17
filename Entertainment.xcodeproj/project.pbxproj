@@ -18,6 +18,14 @@
 		57EE8699245679080041B475 /* ClientTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EE8698245679080041B475 /* ClientTool.swift */; };
 		57EE869B24567A440041B475 /* PKHUDPrompt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EE869A24567A440041B475 /* PKHUDPrompt.swift */; };
 		57EE86A1245683A90041B475 /* SnapKitQuick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EE86A0245683A90041B475 /* SnapKitQuick.swift */; };
+		57F44C3C24C1B1E000DB603B /* CLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F44C3A24C1B1E000DB603B /* CLocation.swift */; };
+		57F44C3D24C1B1E000DB603B /* Placemark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F44C3B24C1B1E000DB603B /* Placemark.swift */; };
+		57F44C4024C1B25000DB603B /* KingfisherCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F44C3F24C1B25000DB603B /* KingfisherCache.swift */; };
+		57F44C4324C1B2BC00DB603B /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F44C4224C1B2BC00DB603B /* ImagePicker.swift */; };
+		57F44C4824C1B3B500DB603B /* FileContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F44C4424C1B3B500DB603B /* FileContent.swift */; };
+		57F44C4924C1B3B500DB603B /* UserAuthorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F44C4524C1B3B500DB603B /* UserAuthorization.swift */; };
+		57F44C4A24C1B3B500DB603B /* Timestamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F44C4624C1B3B500DB603B /* Timestamp.swift */; };
+		57F44C4B24C1B3B500DB603B /* Validations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F44C4724C1B3B500DB603B /* Validations.swift */; };
 		57FD5A9C246571DF0039A267 /* Appdelegate+jPush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FD5A9B246571DF0039A267 /* Appdelegate+jPush.swift */; };
 		57FD5A9E2465757A0039A267 /* Appdelegate+voip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FD5A9D2465757A0039A267 /* Appdelegate+voip.swift */; };
 		57FD5AA0246579550039A267 /* PushKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57FD5A9F246579550039A267 /* PushKit.framework */; };
@@ -104,6 +112,14 @@
 		57EE8698245679080041B475 /* ClientTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientTool.swift; sourceTree = "<group>"; };
 		57EE869A24567A440041B475 /* PKHUDPrompt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKHUDPrompt.swift; sourceTree = "<group>"; };
 		57EE86A0245683A90041B475 /* SnapKitQuick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapKitQuick.swift; sourceTree = "<group>"; };
+		57F44C3A24C1B1E000DB603B /* CLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLocation.swift; sourceTree = "<group>"; };
+		57F44C3B24C1B1E000DB603B /* Placemark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Placemark.swift; sourceTree = "<group>"; };
+		57F44C3F24C1B25000DB603B /* KingfisherCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KingfisherCache.swift; sourceTree = "<group>"; };
+		57F44C4224C1B2BC00DB603B /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		57F44C4424C1B3B500DB603B /* FileContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileContent.swift; sourceTree = "<group>"; };
+		57F44C4524C1B3B500DB603B /* UserAuthorization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAuthorization.swift; sourceTree = "<group>"; };
+		57F44C4624C1B3B500DB603B /* Timestamp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timestamp.swift; sourceTree = "<group>"; };
+		57F44C4724C1B3B500DB603B /* Validations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validations.swift; sourceTree = "<group>"; };
 		57FD5A9B246571DF0039A267 /* Appdelegate+jPush.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Appdelegate+jPush.swift"; sourceTree = "<group>"; };
 		57FD5A9D2465757A0039A267 /* Appdelegate+voip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Appdelegate+voip.swift"; sourceTree = "<group>"; };
 		57FD5A9F246579550039A267 /* PushKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PushKit.framework; path = System/Library/Frameworks/PushKit.framework; sourceTree = SDKROOT; };
@@ -238,6 +254,39 @@
 				57EE869424552C900041B475 /* EnvironmentOption.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		57F44C3824C1B1E000DB603B /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				57F44C3924C1B1E000DB603B /* Location */,
+			);
+			path = Function;
+			sourceTree = "<group>";
+		};
+		57F44C3924C1B1E000DB603B /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				57F44C3A24C1B1E000DB603B /* CLocation.swift */,
+				57F44C3B24C1B1E000DB603B /* Placemark.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		57F44C3E24C1B25000DB603B /* KingfisherCache */ = {
+			isa = PBXGroup;
+			children = (
+				57F44C3F24C1B25000DB603B /* KingfisherCache.swift */,
+			);
+			path = KingfisherCache;
+			sourceTree = "<group>";
+		};
+		57F44C4124C1B2BC00DB603B /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				57F44C4224C1B2BC00DB603B /* ImagePicker.swift */,
+			);
+			path = ImagePicker;
 			sourceTree = "<group>";
 		};
 		69994167E758BEAA231BBF3E /* Frameworks */ = {
@@ -387,6 +436,7 @@
 				57410AF9244E8440000791CA /* ViewController.swift */,
 				711EB7D1233319BB0084F764 /* Configs */,
 				711EB7D723331B900084F764 /* Helpers */,
+				57F44C3824C1B1E000DB603B /* Function */,
 				711EB7CC23321FBC0084F764 /* Features(项目模块) */,
 				711EB7F423337C0D0084F764 /* Components(组件) */,
 				711EB7F023332AA60084F764 /* Resources(资源文件) */,
@@ -464,6 +514,8 @@
 		7181E4E32339E95700D07AF9 /* Extension(扩展) */ = {
 			isa = PBXGroup;
 			children = (
+				57F44C4124C1B2BC00DB603B /* ImagePicker */,
+				57F44C3E24C1B25000DB603B /* KingfisherCache */,
 				57DB4FCD24727398003D400B /* NotificationName */,
 				7141D36C23274A9000043636 /* Chain */,
 				71912834236BD8830080298F /* Font */,
@@ -608,6 +660,10 @@
 			isa = PBXGroup;
 			children = (
 				71F2660B238629E000FA72B4 /* Delay.swift */,
+				57F44C4424C1B3B500DB603B /* FileContent.swift */,
+				57F44C4624C1B3B500DB603B /* Timestamp.swift */,
+				57F44C4524C1B3B500DB603B /* UserAuthorization.swift */,
+				57F44C4724C1B3B500DB603B /* Validations.swift */,
 			);
 			path = "Public(工具)";
 			sourceTree = "<group>";
@@ -759,6 +815,7 @@
 				57EE86A1245683A90041B475 /* SnapKitQuick.swift in Sources */,
 				71180885239F430E002F3D29 /* Slider.swift in Sources */,
 				57FD5A9E2465757A0039A267 /* Appdelegate+voip.swift in Sources */,
+				57F44C4024C1B25000DB603B /* KingfisherCache.swift in Sources */,
 				7181E5022339EC7400D07AF9 /* CollectionViewCell.swift in Sources */,
 				71A3B4A7236C1CD1009A4101 /* SDK.swift in Sources */,
 				711EB7DB23331B900084F764 /* Color+RGBA.swift in Sources */,
@@ -769,16 +826,19 @@
 				7181E4ED2339EA6700D07AF9 /* UIImage+Size.swift in Sources */,
 				7141D38223274A9000043636 /* UIView+Chain.swift in Sources */,
 				711EB7FD233380CF0084F764 /* WebViewController.swift in Sources */,
+				57F44C3C24C1B1E000DB603B /* CLocation.swift in Sources */,
 				71F266092386293200FA72B4 /* NotificationManager.swift in Sources */,
 				57DB4FCC24726AE5003D400B /* Device.swift in Sources */,
 				7141D37C23274A9000043636 /* Chainable.swift in Sources */,
 				57DB4FCF247273AD003D400B /* NotificationName.swift in Sources */,
+				57F44C4A24C1B3B500DB603B /* Timestamp.swift in Sources */,
 				57EE8699245679080041B475 /* ClientTool.swift in Sources */,
 				71912836236BD89B0080298F /* Font.swift in Sources */,
 				7141D38123274A9000043636 /* UIImageView+Chain.swift in Sources */,
 				71F22CEA233B13B700D22EB4 /* CollectionViewFlowLayout.swift in Sources */,
 				711EB7EB2333205E0084F764 /* SpacingGuide.swift in Sources */,
 				711EB7DA23331B900084F764 /* UIColor+Hex.swift in Sources */,
+				57F44C4B24C1B3B500DB603B /* Validations.swift in Sources */,
 				7181E5042339ECFE00D07AF9 /* TableView.swift in Sources */,
 				7181E4EC2339EA6700D07AF9 /* UIImage+Color.swift in Sources */,
 				7141D38523274A9000043636 /* UICollectionView+Chain.swift in Sources */,
@@ -792,9 +852,11 @@
 				711EB7EA2333205E0084F764 /* FontGuide.swift in Sources */,
 				711EB7E02333201D0084F764 /* NavigationController.swift in Sources */,
 				7141D38623274A9000043636 /* UIScrollView+Chain.swift in Sources */,
+				57F44C4824C1B3B500DB603B /* FileContent.swift in Sources */,
 				71F22CE5233B007B00D22EB4 /* TextField.swift in Sources */,
 				7141D35B232749D300043636 /* AppDelegate.swift in Sources */,
 				7181E4F42339EAC600D07AF9 /* Iphone.swift in Sources */,
+				57F44C4324C1B2BC00DB603B /* ImagePicker.swift in Sources */,
 				71F22CE1233B003500D22EB4 /* Button.swift in Sources */,
 				7181E4E12339E89000D07AF9 /* UIScreen+Frame.swift in Sources */,
 				7181E4E02339E89000D07AF9 /* UIView+Frame.swift in Sources */,
@@ -802,6 +864,8 @@
 				7181E4FE2339EB9C00D07AF9 /* TabBarController.swift in Sources */,
 				7181E4F12339EAA900D07AF9 /* ThousandNumber.swift in Sources */,
 				57410AFA244E8440000791CA /* ViewController.swift in Sources */,
+				57F44C3D24C1B1E000DB603B /* Placemark.swift in Sources */,
+				57F44C4924C1B3B500DB603B /* UserAuthorization.swift in Sources */,
 				711EB7F923337C0D0084F764 /* GradientView.swift in Sources */,
 				717EB19123555753000D5BCA /* UIView+SnapKit.swift in Sources */,
 				7141D37F23274A9000043636 /* UITextField+Chain.swift in Sources */,
@@ -946,8 +1010,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Entertainment/Easy English.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -977,8 +1041,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Entertainment/Easy English.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
